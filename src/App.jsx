@@ -22,7 +22,7 @@ function App() {
 
 
   return (
-    <>
+    <div className="overflow-x-hidden">
     <Section1/>
     <PartnerLogos/>
     <DiscoverSection/>
@@ -39,7 +39,7 @@ function App() {
     <CTASection/>
   
     <Footer/>
-    </>
+    </div>
   )
 }
 
