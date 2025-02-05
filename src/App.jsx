@@ -37,7 +37,7 @@ function App() {
     <HeroSection/>
     <FAQSection/>
     <CTASection/>
-    <CTASection/>
+  
     <Footer/>
     </>
   )
