@@ -9,10 +9,7 @@ export default function Footer() {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-teal-600 rounded-full flex items-center justify-center">
-                <div className="w-6 h-6 bg-white rounded-full transform translate-x-1"></div>
-              </div>
-              <span className="text-xl font-bold text-gray-900">Breathe Matters</span>
+              <img src="https://s3-alpha-sig.figma.com/img/56d4/5a66/62bbb4010a0f29ad5e21a54d0ee202fc?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=nZwnC-kl9OVhV6fHDXOPuEXSr05fXg4PQRS2gK8QEqxvoY3ntFqYShQHYiUh7VRY7-vC1Npuc6CMq7CUjx5G4~oEJToARjxaic6xeXNXVBlFi7gJ3kiv4jeHbEqX7SFiyxe7~eSrmKPZmDde9nChYeG5s0aGKapP5n8HrFv~MWgiXwhVCoHgmYKCWqca2MEGXt2I258AcmcwxpoPQpzcyF9eqMVqcp1goTowP9i2XgBX--hucTy3N~7ZQJUFYaNcKrC2CSrnWBHGxuSJKKSkdwelqO1yDJgXIIoQ-NNESAdch-2B-rYW4Ix248HdVixcKDHPPdG1t4Ose3W13XdAIA__"/>
             </div>
             <p className="text-gray-600 max-w-sm">
               Join us on a journey towards a healthier, balanced life – where each inhale and exhale contributes to your overall sense of wellness.

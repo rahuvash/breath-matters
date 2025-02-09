@@ -10,9 +10,10 @@ export default function DiscoverSection() {
 
       <div className="grid md:grid-cols-2 gap-8 overflow-hidden rounded-lg">
         {/* Left side - Image */}
-        <div className="relative h-[500px] md:h-full bg-[#FDF5F0]">
+        <div className="relative h-[200px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] bg-[#FDF5F0]">
+
           <img
-            src="https://media.istockphoto.com/id/1219401141/photo/woman-practicing-yoga-in-lotus-position-at-park.jpg?s=612x612&w=0&k=20&c=Bk7HV73FLORtdNrnB9L0MI9tbMLB28W1c5N65bMiPvI="
+            src="https://s3-alpha-sig.figma.com/img/8f14/ddf9/572cd93a33102f960cacf4d67ab4e6b1?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=n9BrrULpVrpuy9CQUtWVSG1euF5RRFHHr5uYqvWGB02MTqEugF3SCzuKNUc~KIh5HuPfibcVZYn3NTf1yTzyHstS3samxch33A8VBjTld8HPfhI6eEHRmoE4L6YRGv-sU7~vpd7fHlg~o4WremvZuCIb8uAXHx~QvEdpJItickvbqbk3~7MoGNF5ScLuuVwt9SOnCsfPWYs41MIICXc1PnQg~kj0~wTiksULXnXKwz7Tu-WnWtpt5isuYPm8SOR9DDbxE87XrrDsGh0LR0B34-2CWuBZrzV~Sgn9mlYrTvj0LDpXwblbpXJCq2hPM3g-zhGBUxsAuZpihYTtEKoImA__"
             alt="Person practicing mindful breathing with CapnoTrainer GO"
             className="object-cover w-full h-full"
           />
@@ -21,7 +22,7 @@ export default function DiscoverSection() {
         {/* Right side - Content */}
         <div className="flex flex-col">
           {/* Light blue section */}
-          <div className="bg-[#F5F9FA] p-8 space-y-6">
+          <div className="bg-[#F5F9FA] p-8 space-y-6 h-auti">
          
             <div className="space-y-6">
               <div className="flex gap-4 items-start">
@@ -57,7 +58,7 @@ export default function DiscoverSection() {
           </div>
 
           {/* Teal section */}
-          <div className="bg-teal-600 p-8 text-white flex-1">
+          <div className="bg-teal-600 p-8 text-white flex-1 ">
             <p className="text-lg">
               Millions of people suffer the consequences of poor breathing habits. But you don't have to be one of them.
               With the <span className="font-semibold">CapnoTrainer® GO</span>, you'll unlock a scientifically-backed

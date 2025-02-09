@@ -50,7 +50,7 @@ const HowItWorks = () => {
           {/* Background Image */}
           <div className="absolute top-0 right-0 w-full md:w-2/3 h-full z-0 opacity-40">
             <img
-              src="https://images.unsplash.com/photo-1573496799822-b0557c9e2f41?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://s3-alpha-sig.figma.com/img/a728/974a/341a76dacd8f769e97a80095f2ce3649?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dPATY8Pk0SDZyInCaRnavmeix4foQHEovk4nMKZLehTwArcQNuxIkt9C2CV93JLw38PIz-7tjwZr0pzUmN2OhAXghqjEiULnF6SE4Fm0pn8bovc7VPH~yxm~hRNRBvgu1hyoIfrEb-3ZnDmx1Da1OxCDaSD4YKBj1iuNiQKw10trLZ0iDFEHtCQgdjjtcV6fPqtY6SXp1EviG2Qzj34QCJRafPH~QOSR5frvzolRti37wxT2DISrsmA8oz668LYBLcxBtZ7N1VXmOyv2gJnTidr1O0b5SgtqvOtZcE-ifJulaP44-Nvzzgcdp-xaDlpFR0Z~V4~XnxAd-FLJ3QSOPg__"
               alt="CapnoTrainer Interface"
               className="w-full h-full object-cover rounded-lg"
             />

@@ -6,21 +6,21 @@ const SuccessStories = () => {
       name: "Dr. Sarah Chen",
       role: "Performance Coach",
       quote: "The CapnoTrainer GO has revolutionized how I help athletes optimize their breathing. We've seen remarkable improvements in performance and recovery times.",
-      image: "https://placehold.co/400x400/teal/white?text=Sarah+C",
+      image: "https://s3-alpha-sig.figma.com/img/68c0/a84f/dbdd59c5dc6e945887392a236521e656?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=nBwmUWM2zBYFnZZ~KrPcVUlf5Sd~~JAIn0sXPv8Z7z7Hg~RctYYMXUTkbaSxgc5aXHlbxAtLn6d99SszrYZz9WHboJHouf8n4cu2S5DQy09nfgojo0KkfvktiE~3hwv5qRad0auEzRId~78zwh7Sp~Pvwe8Tbqe0wJiWrBEWw9MiFTcKELXNJNtjmqeM74nQY7AID5YvS-VcWb~UegC~bkuZTfVR-z-QwhFSrBIQR5vCyxo5Fr9F7bRxdpGuGVeySisisNwT5BEUvDdCHR4mspnIdE6PPsVHuEEXdxhBUydWiDJNkQiVm11q5SmmEjYVcOkg~vU~kYka4wqWl936lw__",
       achievement: "90% of clients reported improved endurance"
     },
     {
       name: "Michael Roberts",
       role: "Marathon Runner",
       quote: "After six weeks of training with CapnoTrainer GO, I shaved 12 minutes off my marathon time. The real-time feedback helped me understand my breathing like never before.",
-      image: "https://placehold.co/400x400/teal/white?text=Michael+R",
+      image: "https://s3-alpha-sig.figma.com/img/6549/bd52/9d32f77eb888327565ae799d196b248e?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ZWTK9P7xqlPmHu3dVKy3S0nmTbRI8FGz3U5wHnTgryS6hqYCs47Gn2~FDs2O0zWdSGtJYCV9lAPaGhGw6G7XDQG5M4IqNSmwGWPqLY7k8RLCwXg1iey0ST5SRC3yDaFKqRSkHEmdh6K7R~0wTP2KfQoRGpr5gXr2yaNemMVJCliLxGLHYG4xRvEcRp2LVjToQmrK37aBWwQSO-uCqnEZ0HNXnRL4vMZHz4TOD6ZY6NDfEBceaGyZWw2nA8M~v6hVb5b49ODGNWSiC19eeiAmbQD2CkNNu5XR02BQUqzT~5sf0YwtoHA1J17bjq422rdLalcUwhBVMvKtFq2-Pal1iQ__",
       achievement: "Personal best in Chicago Marathon"
     },
     {
       name: "Emma Thompson",
       role: "Wellness Coach",
       quote: "For my clients struggling with stress and anxiety, the CapnoTrainer GO has been a game-changer. The visual feedback makes it easy to understand and correct breathing patterns.",
-      image: "https://placehold.co/400x400/teal/white?text=Emma+T",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAp3Z1hXfTVTKtbw3vE75-rtfr1ZCFcPSw4A&s",
       achievement: "Helped 200+ clients improve breathing patterns"
     }
   ];

@@ -1,22 +1,27 @@
-import React from 'react';
+import React from "react";
 
 const WhoIsItFor = () => {
   const userGroups = [
     {
       title: "Wellness Enthusiasts",
-      description: "Achieve better sleep, reduce anxiety, and enhance overall vitality.",
-      image: "https://plus.unsplash.com/premium_photo-1671305281546-81511006c94e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      description:
+        "Achieve better sleep, reduce anxiety, and enhance overall vitality.",
+      image:
+        "https://s3-alpha-sig.figma.com/img/9706/d335/cbf2d02cc7f79c9e6e2138ac186bf1d1?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SKo0rsxoId-1qEob7blWhWFmXgGQCDoQ0UrMygzLzC3tCymTfOAvQtzfRNvhBaAfmER8L4KlLmB2c5zZl2M8mwgZ5Sx8H1hjMGgnzRlElcMs9EW8IzFsC7iIuz2NfOvWcJ9qLnQRPE4nbZCUqxLSOgaXW1yLeORWB1iWeX6a67cNzgb4v-jj9wa4xySNEmH4o0IE4rIfsiIofaV9Uj3-Aj-hKZwtTEP7709lc22WPMQoHwGmiPG2YUtysfvReYjJG6YGIGQ79KrgUBdaTsz6UR~c7LxRlLDFEPzbrBwUiMb7Gl0AEtB~vSORf0cLLvU3z2gZ5WDb2oquAj-oUyKEaQ__",
     },
     {
       title: "Health Practitioners",
-      description: "Provide clients with revolutionary breathing behavior analysis for lasting results.",
-      image: "https://plus.unsplash.com/premium_photo-1661690006963-7c8868418ed6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      description:
+        "Provide clients with revolutionary breathing behavior analysis for lasting results.",
+      image:
+        "https://s3-alpha-sig.figma.com/img/efe0/ca20/0c4fd77942196034cda58279d9aae589?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=I0A0hINHxURC91Ehhvqln0hjs-gcwrCWTO9hsCpFvC3LstSZDlCYHe4Jsh9aRfeGZ~8bwzYACAe5FKqA~gcTfhBgaGnde6wSgyFVNQr-8dEgvNYQGwoO5mN6hZSEfILEFQLPM1j6BzMofIHToOTsbT1SVrVK0Tf8XJu4tIeipa0OsrsIFI0sPfoKqJIqsQ0EUB5FxwHMOLb53iXRmwQmutP7Lwpe811dezje1Dck9YPuB3D~laKOFjIyoCC-t4OYkzNGBJtu4-zRm1QL-8OotpyeCE6lQnt1tOUeeN1B0AI07m--V-oj7pbcmWTQUe13oGP~A5DNmpXh9qMNird0hQ__",
     },
     {
       title: "Athletes & Performers",
       description: "Boost endurance, focus, and physical resilience.",
-      image: "https://plus.unsplash.com/premium_photo-1664304782019-614e9fb29aad?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    }
+      image:
+        "https://s3-alpha-sig.figma.com/img/f39d/41b9/21e50f6c4581602a5afb5c3d82025e6c?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=VLPxRm-l8pQDLeuRCLGjLadVbYAccTVxWMPJtUO3HFT9BrPHXUobCC1rM~JHanCyGsgX~dj-9rwkT5TvMI6MsJHMgI4IEWlbKjqPq~n1h9i7nfLUrTUVi1I9hF9nyVChYiKUimB1mLWbQzQNYxPD8xSau3sXTq~Ch7yVYttLLtY~yQ334Q2t4Osrl-4UudorAkWYhQG-6Nj2sBs01IWG1lbdDHX1jKBXG534skYTUQ4pj~N8TWh7QbZG0nD3paGPa0xpoy528~ReOGD-F9YgkIkHlzLh4zB3njvJnB1Pkt2rYENxxIKmp82PcAoi-H6LNaCIQxzRh6THkCxWXbqYhw__",
+    },
   ];
 
   return (
@@ -28,48 +33,22 @@ const WhoIsItFor = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           {userGroups.map((group, index) => (
-            <div 
+            <div
               key={index}
               className="relative group overflow-hidden rounded-2xl"
             >
-              {/* Image Container */}
-              <div className="aspect-[4/3] overflow-hidden">
-                <img
-                  src={group.image}
-                  alt={group.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <img
+                src={group.image}
+                alt={group.title}
+                className="w-full h-full object-cover"
+              />
 
-              {/* Overlay Content */}
-              <div className="absolute inset-0 bg-teal-600/80 flex flex-col justify-end p-6 text-white">
-                <h3 className="text-2xl font-bold mb-2">
-                  {group.title}
-                </h3>
-                <p className="text-white/90">
-                  {group.description}
-                </p>
+              <div className="absolute inset-0 bg-teal-600 flex flex-col items-center justify-center text-center text-white p-6 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                <h3 className="text-2xl font-bold mb-2">{group.title}</h3>
+                <p className="text-white/90">{group.description}</p>
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Decorative Element */}
-        <div className="flex justify-center mt-12">
-          <svg width="120" height="60" viewBox="0 0 120 60" className="text-teal-200">
-            <path
-              d="M0 30 Q30 0, 60 30 T120 30"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            />
-            <path
-              d="M0 40 Q30 10, 60 40 T120 40"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            />
-          </svg>
         </div>
       </div>
     </div>

@@ -80,9 +80,9 @@ export default function ProductIntro() {
                 <div className="relative z-10">
                   <div className="relative rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-300">
                     <img
-                      src="https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=800"
+                      src="https://s3-alpha-sig.figma.com/img/ce9a/3882/82674a601ce476532cdacb65e1cec47a?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ZZMXNZEwO5D5toRYCgb3SkeDF0PrLMtgebIw6mfhsrrjXR-dWnfl2Eup1x5YEAC~Pfhu3BmF5se9vO3yrB9sDoEQgcCaidNyik9reN1dwclnLei0W6UYW83a2R~Wv5GkH7y5BTt1~6V9~~ON0B1ILRJp7Zf7A~Jv3VDkss6qGUofd9V9mmHdJDEhYYCns87G8btLVDdZpH5pnGdhAnGECjECFI2nAN4vGfSuVn33fXoB4gQHKTsYsAuRYk4QEvHNus2jxX~FGIPLZ2KI1vnM-yDbglaXf4dBK03SqqDTJXo55-4b~wA44lXVTTdu-Eac77tFirTg3OXY-bNeqEhwBw__"
                       alt="CapnoTrainer GO Device"
-                      className="w-full h-auto"
+                      className="w-80 h-auto"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
                   </div>

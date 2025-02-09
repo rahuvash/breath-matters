@@ -10,7 +10,7 @@ export default function HeroSection() {
             <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
               <img
                 className="w-full lg:h-full lg:max-h-[600px] object-cover rounded-r-3xl"
-                src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&q=80&w=1000"
+                src="https://s3-alpha-sig.figma.com/img/6144/08b4/52653cc7da29821d2f9c8f66b67898ce?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ZjVFRpTBPJDttQsi0Rgtx~5AfFm7aqmr2PgwPP73Wh7KwG4wx-IZkMkiBJZvG1AbkuWtQjPW8NQwYMC~dLG24DC1nbSGE~TdP8RIsOFLxQcYwu6aPoPIcDQlq~4RtvL8npjrS6i4fDVnIi5m8Y7j5sSb3GnCe9J2Y2xcD9ep9p47crWpSkB7Xs5z8H6a9GQRu7~uyWZTmP7sk49V~xpMHr0Q04IzmUBvFBYD4AASnJtsA3FI2CsmwkycLoUSZ29Z9SOt8E4MpFavKBk23i63X8-F81iGEme9YPQnKpk~gTpTd0VKE11d0sglF7Zl2BFbss3CMATB21LxK58E7WPO3A__"
                 alt="Person practicing mindful breathing"
               />
             </div>
